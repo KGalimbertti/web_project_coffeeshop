@@ -55,13 +55,6 @@
   background-size: cover;
 }
 
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 183px;
-}
-
 .header__title {
   font-family: "Inter";
   font-style: normal;
@@ -72,6 +65,7 @@
   max-width: 789px;
   margin-left: 80px;
   margin-bottom: 28px;
+  margin-top: 183px;
 }
 
 .span-accent {
@@ -103,36 +97,14 @@
   justify-content: space-between;
 }
 
-.paragraph__list {
+.header__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  margin-left: 40px;
-}
-
-.paragraph__list-item {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  list-style-type: none;
   margin-left: 80px;
-}
-
-.header__address {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin-right: 80px;
-  margin-bottom: 40px;
 }
 
 .recipes {
