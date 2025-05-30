@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Triple Espresso</title>
   </head>
   <body>
     <div class="page">
@@ -97,7 +97,52 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h1 class="reservation__title">Reservar uma mesa</h1>
+          <div>
+            <form class="form" action="/processar-reserva">
+              <label class="label">Nome: </label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Nome"
+                required
+              />
+              <label class="label">Número de convidados: </label>
+              <input
+                type="number"
+                class="form__input"
+                placeholder="1-8"
+                required
+              />
+              <label class="label">Data e hora: </label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                placeholder="Nome"
+                required
+              />
+              <label class="label">Seu e-mail: </label>
+              <input
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+              />
+              <button type="submit" class="form__button form__button--submit">
+                Reservar uma mesa
+              </button>
+              <div class="form__checkbox">
+                <input
+                  type="checkbox"
+                  id="termos"
+                  class="form__checkbox-input"
+                />
+                Eu concordo com os termos de uso
+              </div>
+            </form>
+          </div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
