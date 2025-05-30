@@ -98,8 +98,8 @@
           </div>
         </section>
         <section id="reservation" class="reservation">
-          <h1 class="reservation__title">Reservar uma mesa</h1>
-          <div>
+          <div class="reservation__form">
+            <h2 class="reservation__title">Reservar uma mesa</h2>
             <form class="form" action="/processar-reserva">
               <label class="label">Nome: </label>
               <input
@@ -116,12 +116,7 @@
                 required
               />
               <label class="label">Data e hora: </label>
-              <input
-                type="datetime-local"
-                class="form__input"
-                placeholder="Nome"
-                required
-              />
+              <input type="datetime-local" class="form__input" required />
               <label class="label">Seu e-mail: </label>
               <input
                 type="email"
