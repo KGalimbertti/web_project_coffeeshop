@@ -7,9 +7,7 @@
     <meta name="description" content="Café especial na biblioteca" />
     <meta name="keywords" content="html,programacao, javascript, css" />
     <meta name="author" content="Kauê Galimbertti" />
-    <link rel="stylesheet" href="./style/style.css" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +29,7 @@
           <ul class="nav__links">
             <li><a href="#recipes" class="nav__link">Receitas</a></li>
             <li><a href="#reservation" class="nav__link">Reservar Mesa</a></li>
-            <li><a href="#" class="nav__link">Contatos</a></li>
+            <li><a href="#footer" class="nav__link">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -97,10 +95,10 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation">
+        <section id="reservation" class="reservation reservation__form">
           <div>
             <h2 class="reservation__title">Reservar uma mesa</h2>
-            <form class="form reservation__form" action="/processar-reserva">
+            <form class="form" action="/processar-reserva">
               <label class="label">Nome: </label>
               <input
                 type="text"
@@ -139,7 +137,39 @@
           </div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo Coffee Shop"
+          />
+          <div class="footer__circle"></div>
+
+          <div class="footer__social">
+            <h4 class="footer__social-heading">Mídia social</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Logo Facebook"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item footer__social-link">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Logo Instagram"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2025 Kauê Galimbertti</p>
+      </footer>
     </div>
   </body>
 </html>
