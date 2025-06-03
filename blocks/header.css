@@ -6,9 +6,6 @@
   max-height: 800px;
   position: relative;
   box-sizing: border-box;
-}
-
-.header__staff {
   background-image: url("../images/background_header.svg");
   background-size: cover;
 }
