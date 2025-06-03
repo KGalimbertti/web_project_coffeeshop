@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header staff">
+      <header class="header header__staff">
         <nav class="nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
@@ -33,8 +33,8 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="span-accent">Café especial</span> na biblioteca Triple
-          Peaks
+          <span class="header__span-accent">Café especial</span> na biblioteca
+          Triple Peaks
         </h1>
         <p class="header__description">
           Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
@@ -95,27 +95,27 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation reservation__form">
+        <section id="reservation" class="reservation">
           <div>
             <h2 class="reservation__title">Reservar uma mesa</h2>
             <form class="form reservation__form" action="/processar-reserva">
-              <label class="label">Nome: </label>
+              <label class="form__label">Nome: </label>
               <input
                 type="text"
                 class="form__input"
                 placeholder="Nome"
                 required
               />
-              <label class="label">Número de convidados: </label>
+              <label class="form__label">Número de convidados: </label>
               <input
                 type="number"
                 class="form__input"
                 placeholder="1-8"
                 required
               />
-              <label class="label">Data e hora: </label>
+              <label class="form__label">Data e hora: </label>
               <input type="datetime-local" class="form__input" required />
-              <label class="label">Seu e-mail: </label>
+              <label class="form__label">Seu e-mail: </label>
               <input
                 type="email"
                 class="form__input"
